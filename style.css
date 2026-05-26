@@ -16,7 +16,7 @@ font-style: normal;
 }
 body{
     background-color: #121212; 
-    overflow-x: hidden;
+    overflow:hidden;
 }
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
@@ -201,9 +201,10 @@ body{
 @media screen and (max-width: 500px){
     .main-text{
         font-size: 20px;
+        margin-left: 140px;
     }
     .styled-text{
-        font-size: 95px;
+        font-size: 85px;
         margin-left: 100px;
     }
     #line{
