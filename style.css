@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+font-family: 'MainFont';
+src: url('fonts/Super\ Warming.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'MainFont2';
+src: url('fonts//Eternalo.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+body{
+    background-color: #121212; 
+    overflow-x: hidden;
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.logos-div{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 40px;
+    color: white;
+}
+.fifa-logo{
+    width: 60px;
+    height: auto;
+}
+.tournment-logo{
+    width: 60px;
+    height: auto;
+}
+.hero-section{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 675px;
+}
+.text-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+
+}
+.main-text{
+    font-family: "MainFont", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #34C759;
+    font-size: 45px;
+    margin-left: 32%;
+    margin-top: 90px;
+}
+.styled-text{
+    font-family: "MainFont2", sans-serif;
+    font-style: normal;
+    font-size: 130px;
+    margin-top: 5px;
+    margin-left: 15%;
+    color: white;
+}
+
+#countdown-div{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-top:30px;
+}
+.countdown-div-header{
+    font-family: "CustomFont";
+    font-style: normal;
+    font-size: 80px;
+    margin-top: 0px;
+    margin-left: 15%;
+    color: white;
+    margin-top: 50px;
+    margin-left: 35%;
+}
+.countdown-box{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 250px;
+    background-color: #121212;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 45px;
+    font-family: "MainFont2", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+}
+.countdown-box:hover{
+    border-color: #34C759;
+    color: #34C759;
+}
+.countdown-timer{
+    font-size: 75px;
+    margin-top: 60px;
+    margin-left: 105px;
+}
+.time-span-header{
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 80px;
+    font-weight: 400;
+}
+#website-footer{
+    color: white;
+    font-family: "MainFont2", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 35px;
+    margin-left: 35%;
+}
+#circle{
+    position: absolute;
+    z-index: -1000;
+    width: 450px;
+    height: 450px;
+}
+.circle1{
+    background-color: transparent;
+    border: 3px solid white;
+    margin-left: 77%;
+    border-radius: 450px;
+    margin-top: -150px;
+
+}
+#line{
+    width: 380px;
+    height: auto;
+    margin-left: 450px;
+}
+.footer-name{
+    color:#34C759;
+    font-style: italic;
+    font-weight: 600;
+}
+@media screen and (max-width: 950px){
+    .main-text{
+        font-size: 40px;
+        margin-left: 30%;
+    }
+    .styled-text{
+        font-size: 100px;
+    }
+    #explore-button{
+        margin-left: 37%;
+        margin-top: 40%;
+    }
+    .countdown-div-header{
+        font-size: 60px;
+    }
+    .countdown-timer{
+        font-size: 55px;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    .time-span-header{
+        font-size: 25px;
+        margin-top: 50px;
+        margin-left: 44px;
+    }
+    #line{
+        margin-left:250px;
+    }
+}
+@media screen and (max-width: 750px){
+    .main-text{
+        font-size: 30px;
+    }
+    #line{
+        margin-left: 180px;
+        margin-top: -10px;
+    }
+    .countdown-box{
+        margin-top: -35px;
+    }
+    #website-footer{
+        margin-top: 10px;
+        margin-left: 175px;
+    }
+}
+@media screen and (max-width: 500px){
+    .main-text{
+        font-size: 20px;
+    }
+    .styled-text{
+        font-size: 95px;
+        margin-left: 100px;
+    }
+    #line{
+        width: 250px;
+        height: auto;
+        margin-left: 135px;
+    }
+    .countdown-box{
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .countdown-timer{
+    font-size: 45px;
+    margin-left: 30px;
+}
+.time-span-header{
+    font-size: 25px;
+    margin-left: 15px;
+}
+    #website-footer{
+        margin-left: 80px;
+    }
+}
