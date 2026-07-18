@@ -1,5 +1,5 @@
 # Welcome to FIFA World Cup 2026 countdown website
-### What is it: It is a website thaat shows the remaining days to the official lauch of the world cup.
+### What is it: It is a website that shows the remaining days to the official lauch of the world cup. (The countdown actually ended!)
 ## Tech Stack used:
 1. HTML
 2. CSS
